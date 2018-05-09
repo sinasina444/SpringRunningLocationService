@@ -1,0 +1,9 @@
+server:
+  port: 9007
+spring:
+  application:
+    name: running-location-updater
+  cloud:
+    stream:
+      bindings:
+        input: locations
